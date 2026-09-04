@@ -1,7 +1,7 @@
 #include<iostream>
 
 // Método com retorno permite manipulação de informação por outros métodos ou programa principal
-// Método sem argumentos
+// Método com argumentos
 // Uso de incrementação += o mesmo que variable = variable + value
 
 static int soma(int a, int b)
