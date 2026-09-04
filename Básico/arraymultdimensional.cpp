@@ -5,7 +5,7 @@
 // Esse mesmo exemplo vai ser usado para simular um HashMap
 
 std::string mapa[2][2] = {
-	{"Brasil", "Rio de Janeiro"},
+	{"Brasil", "Brasilia"},
 	{"Japao", "Toquio"}
 };
 
