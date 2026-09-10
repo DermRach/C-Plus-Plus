@@ -1,5 +1,5 @@
 #include<iostream>
-#include"RandomSeed.hpp"
+#include"random_seed.hpp"
 
 // Criação de um header com a função random
 // Este programa depende do RandomSeed.hpp para funcionar (Localizado na pasta HPP)
