@@ -4,7 +4,7 @@
 // 2 Linhas e 2 colunas
 // Esse mesmo exemplo vai ser usado para simular um HashMap
 
-std::string mapa[2][2] = {
+std::string map[2][2] = {
 	{"Brasil", "Brasilia"},
 	{"Japao", "Toquio"}
 };
@@ -20,8 +20,8 @@ int main()
 		for (int j = 0; j <= 1; j++)
 		{
 			// Output Brasil Rio de Janeiro Japao Toquio
-			// \ sozinho é escape, com outro \ garante ser \ 
-			std::cout << "Pais\\Capital: " << mapa[i][j] << "\n";
+			// \ sozinho é escape, com outro \ garante ser \
+			std::cout << "Pais\\Capital: " << map[i][j] << "\n";
 		}
 	}
 
