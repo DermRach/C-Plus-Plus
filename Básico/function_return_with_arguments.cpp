@@ -4,16 +4,16 @@
 // Método com argumentos
 // Uso de incrementação += o mesmo que variable = variable + value
 
-static int soma(int a, int b)
+static int sum(int a, int b)
 {
 	return a + b;
 }
 
 int main()
 {
-	int resultado = soma(3,4);
-	std::cout << resultado << "\n"; // Output 7
-	resultado += 2;
-	std::cout << resultado << "\n"; // Output 2 + 7 = 9
+	int result = sum(3,4);
+	std::cout << result << "\n"; // Output 7
+	result += 2;
+	std::cout << result << "\n"; // Output 2 + 7 = 9
 	return 0;
 }
