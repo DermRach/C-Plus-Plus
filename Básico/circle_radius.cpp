@@ -14,21 +14,27 @@ struct ConstantsMath
 int main()
 {
 	SetConsoleOutputCP(CP_UTF8);
-	struct ConstantsMath cm;
-	std::string unidade = "cm";
-	long double C = 0.0, R = 0.0; // C - Comprimento, R = Raio
-	std::cout << "Digite o comprimento da circunferência: ";
-	std::cin >> C;
-	std::cout << "Digite a unidade de medição: ";
-	std::cin >> unidade;
+	struct ConstantsMath constants;
+	std::string unit = "cm";
+	long double circumference = 0.0, radius = 0.0; // C - Comprimento, R = Raio
 
-	if (C < 0.0)
+	std::cout << "Digite o comprimento da circunferência: ";
+	std::cin >> circumference;
+
+	std::cout << "Digite a unidade de medição: ";
+	std::cin >> unit;
+
+	if (circumference < 0.0)
 	{
-		C = 1.0;
+		circumference = 1.0;
 	}
 
-	R = C / (2 * cm.PI);
-	std::cout << "O raio da circunferência é: " << std::fixed << std::setprecision(3) <<  R << " " << unidade << "\n";
+	radius = circumference / (2 * constants.PI);
+
+	std::cout << "O raio da circunferência é: "
+			  << std::fixed
+			  << std::setprecision(3)
+			  << radius << " " << unit << "\n";
 
 	return 0;
 }
