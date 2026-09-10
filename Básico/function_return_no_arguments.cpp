@@ -4,7 +4,7 @@
 // Método sem argumentos
 // Uso de incrementação += o mesmo que variable = variable + value
 
-static int soma()
+static int sum()
 {
 	int a = 3;
 	int b = 4;
@@ -13,9 +13,9 @@ static int soma()
 
 int main()
 {
-	int resultado = soma();
-	std::cout << resultado << "\n";
-	resultado += 2;
-	std::cout << resultado << "\n";
+	int result = sum();
+	std::cout << result << "\n";
+	result += 2;
+	std::cout << result << "\n";
 	return 0;
 }
