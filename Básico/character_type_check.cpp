@@ -7,19 +7,19 @@
 int main()
 {
 	SetConsoleOutputCP(CP_UTF8);
-	std::string palavra = "BB-08";
+	std::string text = "BB-08";
 
-	for (int i = 0; i < palavra.length(); i++)
+	for (int i = 0; i < text.length(); i++)
 	{
-		if (isdigit(palavra[i]))
+		if (isdigit(text[i]))
 		{
 			std::cout << "Se trata de um número.\n";
-			std::cout << palavra[i] << "\n";
+			std::cout << text[i] << "\n";
 		}
-		else if (isalpha(palavra[i]))
+		else if (isalpha(text[i]))
 		{
 			std::cout << "Se trata de uma letra.\n";
-			std::cout << palavra[i] << "\n";
+			std::cout << text[i] << "\n";
 		}
 	}
 
