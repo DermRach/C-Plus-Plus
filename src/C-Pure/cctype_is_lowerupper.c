@@ -4,7 +4,7 @@
 // @date 02:41 11/09/2026
 // @author (DermRach) Rafael Junqueira
 // @website mundopauta.com.br
-// @brief Runtine for .header "cctype" locate main Include\.h
+// @brief Runtine for .header "cctype" locate main Include\.H
 // @Instructions use #include"cctype.h" isn't <cctype>
 // @AlternativeUse use a value direct on arguments islowerupper('d');
 
