@@ -5,8 +5,8 @@
 
 int main()
 {
-	FILE* arquivo;
-	errno_t erro = fopen_s(&arquivo, "devlog.txt", "w");
+	FILE* archive;
+	errno_t erro = fopen_s(&archive, "devlog.txt", "w");
 
 	if (erro != 0)
 	{
@@ -16,6 +16,8 @@ int main()
 	{
 		printf("Archive was created with sucess.\n");
 	}
+
+	fclose(&archive);
 
 	return 0;
 }
